@@ -1,9 +1,9 @@
 # BIST_M300
 ## Command line instructions
 
-Git global setup
-git config --global user.name "V-ROLEX"*
-git config --global user.email "lorisw99@hotmail.com"
+* Git global setup
+* git config --global user.name "V-ROLEX"
+* git config --global user.email "lorisw99@hotmail.com"
 
 ## Create a new repository
 
