@@ -6,13 +6,14 @@ git config --global user.name "V-ROLEX"<br>
 git config --global user.email "lorisw99@hotmail.com"
 
 ## Create a new repository
-
+```Bash
 git clone git@gitlab.com:V-ROLEX/BIST_M300.git
 cd Documents/BIST_M300
 touch README.md
 git add README.md
 git commit -m "add README"
 git push -u origin master
+```
 
 ## Existing folder
 
