@@ -2,7 +2,7 @@
 ## Command line instructions
 
 Git global setup
-git config --global user.name "V-ROLEX"<br>
+git config --global user.name "V-ROLEX"*
 git config --global user.email "lorisw99@hotmail.com"
 
 ## Create a new repository
