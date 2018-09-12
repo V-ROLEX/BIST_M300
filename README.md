@@ -1,4 +1,4 @@
-# BIST_M300 | L.Widmer
+# BIST M300 | L.Widmer
 ## Bash
 
 Bash (für Bourne-again shell)) ist eine freie Unix-Shell und Teil des GNU-Projekts. Sie ist heute auf vielen unixoiden Systemen die Standard-Shell.
@@ -14,7 +14,7 @@ Ist bei Mac direkt installiert
 ### Command line instructions
 
 ```shell
-Git global setup
+git global setup
 git config --global user.name "V-ROLEX"
 git config --global user.email "lorisw99@hotmail.com"
 ```
@@ -59,3 +59,7 @@ VirtualBox ab Webseite
 
 Vagrant ist eine Open-Source Ruby-Anwendung zum Erstellen und Verwalten von virtuellen Maschinen, mittels sogenannten Vagrantfiles.
 Vagrant ab Webseite 
+
+## Markdown
+
+Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax.
