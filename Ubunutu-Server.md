@@ -62,10 +62,11 @@ sudo service apache2 restart
 ```shell dos2unix <Datei> ```- Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.</br>
 
 ### Advanced Packaging Tool (APT)
-
-```shell sudo apt-get update- Repositories aktualisieren```
-```shell sudo apt-get -y install apache2 - Webserver Apache installieren```
-```shell sudo apt-get -y upgrade- bestehende Software aktualisieren```
-```shell sudo apt-get -y autoremove - Aufräumen, nicht mehr benötigte Software entfernen```
-```shell sudo apt-cache search [keyword] - Suchen nach einem bestimmen Programmpaket.```
-```shell sudo dpkg -i [Programmpaket] - Installieren eines vorher downloadeten Programmpaketes```
+```shell
+sudo apt-get update- Repositories aktualisieren
+sudo apt-get -y install apache2 - Webserver Apache installieren
+sudo apt-get -y upgrade- bestehende Software aktualisieren
+sudo apt-get -y autoremove - Aufräumen, nicht mehr benötigte Software entfernen
+sudo apt-cache search [keyword] - Suchen nach einem bestimmen Programmpaket.
+sudo dpkg -i [Programmpaket] - Installieren eines vorher downloadeten Programmpaketes
+```
