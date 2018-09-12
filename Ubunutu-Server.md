@@ -18,32 +18,26 @@
 ## Nützliche Befehle
 
 ### Administrator, Start und Stop Services und System
-```shell 
-```shell sudo [-i] ``` - Superuser werden, ein Password ist nicht erforderlich. –i = permanent
-```shell sudo service <servicename> start|stop ```- Starten und Stoppen eines Services z.B. apache2, mysql
-```shell sudo shutdown –r now ```- Restart des Betriebssystems
-```shell sudo shutdown –h now ```- Stoppen des Betriebssystems
-```
+```shell sudo [-i] ``` - Superuser werden, ein Password ist nicht erforderlich. –i = permanent</br>
+```shell sudo service <servicename> start|stop ```- Starten und Stoppen eines Services z.B. apache2, mysql</br>
+```shell sudo shutdown –r now ```- Restart des Betriebssystems</br>
+```shell sudo shutdown –h now ```- Stoppen des Betriebssystems</br>
+
 ### Dateien bearbeiten und Filesystem
-```shell
-```shell ls, rm, mv, cd``` - Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis
-```shell nano oder [vi](http://debiananwenderhandbuch.de/vi.html) ```- Texteditoren
-```shell df –h, free –m, w ```- Diskbelegung, Speicherbelegung, Auslastung CPU
-```
+```shell ls, rm, mv, cd``` - Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis</br>
+```shell nano oder [vi](http://debiananwenderhandbuch.de/vi.html) ```- Texteditoren</br>
+```shell df –h, free –m, w ```- Diskbelegung, Speicherbelegung, Auslastung CPU</br>
+
 ### Netzwerk
-```shell
-```shell ifconfig ``` – Ausgabe der eigenen IP-Adresse
-```shell netstat -a oder netstat -tulpen ```- Ausgabe der verwendeten Network Ports
-```shell net lookup <hostname>``` - IP-Adresse für Hostname ausgeben.
-```
+```shell ifconfig ``` – Ausgabe der eigenen IP-Adresse</br>
+```shell netstat -a oder netstat -tulpen ```- Ausgabe der verwendeten Network Ports</br>
+```shell net lookup <hostname>``` - IP-Adresse für Hostname ausgeben.</br>
+
 ### Prozesse
-```shell
-```shell ps -ef oder top ```- Anzeige der aktiven Prozesse
-```shell kill <pid>``` - Prozess laut Prozess-Id (Nummer) beenden
-```
+```shell ps -ef oder top ```- Anzeige der aktiven Prozesse</br>
+```shell kill <pid>``` - Prozess laut Prozess-Id (Nummer) beenden</br>
+
 ### Hilfsprogramme
-```shell
-```shell curl http://<server> ``` - Aufruf einer Webseite oder eines HTTP REST Services
-```shell wget http://<server>/<datei> ```- kopieren einer Datei von einem Webserver
-```shell dos2unix <Datei> ```- Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.
-```
+```shell curl http://<server> ``` - Aufruf einer Webseite oder eines HTTP REST Services</br>
+```shell wget http://<server>/<datei> ```- kopieren einer Datei von einem Webserver</br>
+```shell dos2unix <Datei> ```- Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.</br>
