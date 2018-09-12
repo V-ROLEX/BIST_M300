@@ -69,13 +69,15 @@ vagrant up --provider virtualbox
 Danach kann man mit  vagrant in die VM wechseln.
 Um zu testen kann man einige Befehle eingeben.
 ```shell
-Verzeichnis anzeigen **ls -l /bin**
-Freier Speicherplatz **df -h**
-Memory anzeigen **free -m**
+Verzeichnis anzeigen ls -l /bin
+Freier Speicherplatz df -h
+Memory anzeigen free -m
+```
+```shell
+VM einschalten vagrant up
+VM ausschalten vagrant halt
 ```
 
-VM einschalten **vagrant up**
-VM ausschalten **vagrant halt** 
 ## Markdown
 
 Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax.
