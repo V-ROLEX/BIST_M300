@@ -8,3 +8,6 @@
 5. Vagrant starten --> vagrant ssh
 ```
 ## Portweiterleitung einrichten
+1. VirtualBox öffnen 
+2. Ändern der VM Einstellungen unter Netzwerk/Erweiterte Einstellungen/Port Weiterleitung
+   ![Portweiterleitung](/Bilder/Portweiterleitung.png)
