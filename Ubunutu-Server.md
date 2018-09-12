@@ -24,27 +24,23 @@
 ```shell sudo shutdown –r now ```- Restart des Betriebssystems
 ```shell sudo shutdown –h now ```- Stoppen des Betriebssystems
 ```
-
 ### Dateien bearbeiten und Filesystem
 ```shell
 ```shell ls, rm, mv, cd``` - Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis
 ```shell nano oder [vi](http://debiananwenderhandbuch.de/vi.html) ```- Texteditoren
 ```shell df –h, free –m, w ```- Diskbelegung, Speicherbelegung, Auslastung CPU
 ```
-
 ### Netzwerk
 ```shell
 ```shell ifconfig ``` – Ausgabe der eigenen IP-Adresse
 ```shell netstat -a oder netstat -tulpen ```- Ausgabe der verwendeten Network Ports
 ```shell net lookup <hostname>``` - IP-Adresse für Hostname ausgeben.
 ```
-
 ### Prozesse
 ```shell
 ```shell ps -ef oder top ```- Anzeige der aktiven Prozesse
 ```shell kill <pid>``` - Prozess laut Prozess-Id (Nummer) beenden
 ```
-
 ### Hilfsprogramme
 ```shell
 ```shell curl http://<server> ``` - Aufruf einer Webseite oder eines HTTP REST Services
