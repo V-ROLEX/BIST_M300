@@ -69,9 +69,9 @@ vagrant up --provider virtualbox
 Danach kann man mit  vagrant in die VM wechseln.
 Um zu testen kann man einige Befehle eingeben.
 ```shell
-Verzeichnis anzeigen ls -l /bin
-Freier Speicherplatz df -h
-Memory anzeigen shellfree -m
+Verzeichnis anzeigen **ls -l /bin**
+Freier Speicherplatz **df -h**
+Memory anzeigen **free -m**
 ```
 ## Markdown
 
