@@ -9,5 +9,7 @@
 ```
 ## Portweiterleitung einrichten
 1. VirtualBox öffnen 
-2. Ändern der VM Einstellungen unter Netzwerk/Erweiterte Einstellungen/Port Weiterleitung
+2. Auf den Reiter Ändern
+3. Unter Netzwerk auf erweiterte Einstellungen
+4. Und Angaben wie im Bild anpassen
 ![Portweiterleitung](/Bilder/Portweiterleitung.png)
