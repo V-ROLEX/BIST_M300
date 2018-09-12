@@ -3,13 +3,11 @@
 
 Bash (für Bourne-again shell)) ist eine freie Unix-Shell und Teil des GNU-Projekts. Sie ist heute auf vielen unixoiden Systemen die Standard-Shell.
 Bash wird Verwendet zur Ausführung von Shellscripts und zum Einloggen (via ssh) auf die Virtuellen Maschinen.
-Ist bei Mac direkt installiert
 
 ## GIT
 
 Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
 Git wird Verwendet als Client zu Versionsverwaltungssystemen.
-Ist bei Mac direkt installiert
 
 ### Command line instructions
 
@@ -53,12 +51,10 @@ git push -u origin --tags
 
 VirtualBox ist eine Virtualisierungssoftware und erlaubt es, lokal auf dem PC sogenannte Virtuelle Maschinen zu Erstellen und zu Verwalten.
 VirtualBox wird verwendet weil das Zusammenspiel mit vagrant am Besten funktioniert und die Software frei Verfügbar ist (Open Sourcen).
-VirtualBox ab Webseite
 
 ## Vagrant
 
 Vagrant ist eine Open-Source Ruby-Anwendung zum Erstellen und Verwalten von virtuellen Maschinen, mittels sogenannten Vagrantfiles.
-Vagrant ab Webseite 
 
 ## Markdown
 
