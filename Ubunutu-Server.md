@@ -12,4 +12,5 @@
 2. Auf den Reiter Ändern
 3. Unter Netzwerk auf erweiterte Einstellungen
 4. Und Angaben wie im Bild anpassen
+   
 ![Portweiterleitung](/Bilder/Portweiterleitung.png)
