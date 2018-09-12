@@ -69,16 +69,15 @@ sudo dos2unix /usr/lib/cgi-bin/rest # evtl. DOS (CR) Zeichen entfernen
 
 ## MySQL
 ### Installation Datenbank
-```shell sudo apt-get install mysql-server mysql-client```
+``` sudo apt-get install mysql-server mysql-client```
 Beim der Abfrage nach dem root Password für den Admin User kann ein beliebiges Password angegeben werden. Dieses auf jeden Fall notieren!
 
 ### Konfiguration
-
 Anmelden bei der Datenbank
-```shell mysql -u root -p```
+``` mysql -u root -p```
 auf dem mysql Prompt mysql>, Datenbank anlegen
 
-```shell create database if not exists sensoren;```
+``` create database if not exists sensoren;```
 Neuen Datenbank-Benutzer www-data (gleicher Benutzername wie Apache Server) mit dem Kennwort "mbed" erstellen
 ```shell
 create user 'www-data'@'localhost' identified by 'mbed'; 
@@ -91,10 +90,10 @@ flush privileges;
 ```
 Datenbank wechseln
 
-```shell use sensoren;````
+use sensoren;
 Tabelle für die Sensordaten erstellen
 
-```shell create table data ( seq INT PRIMARY KEY AUTO_INCREMENT, poti FLOAT, light FLOAT, hall FLOAT, temp FLOAT, created TIMESTAMP DEFAULT CURRENT_TIMESTAMP );```
+``` create table data ( seq INT PRIMARY KEY AUTO_INCREMENT, poti FLOAT, light FLOAT, hall FLOAT, temp FLOAT, created TIMESTAMP DEFAULT CURRENT_TIMESTAMP ```
 Testdaten schreiben und lesen
 ```shell
 insert into data(poti, light, hall, temp) values ( 0.9, 0.8, 0.49, 25.2 );
