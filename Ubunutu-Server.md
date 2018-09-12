@@ -15,7 +15,7 @@
    
 ![Portweiterleitung](/Bilder/Portweiterleitung.png)
 
-## Apache installieren
+## Apache 
 Der Apache HTTP Server ist ein quelloffenes und freies Produkt der Apache Software Foundation und der meistbenutzte Webserver im Internet.
 
 Der Apache-Server kann sehr gut mit sogenannten Modulen erweitert werden, die bestimmte Zusatzfunktionen mitbringen und immer mit 'mod_' beginnen (z. B. mod_rewrite, mod_php5, mod_ssl).
@@ -28,11 +28,17 @@ Es gibt Module u. a. für
 ..*Authentifizierung (mod_auth*)
 ..*Weiterleitung an andere Server (mod_proxy)
 
+### Apache installieren
 ```shell
 sudo apt-get install apache2 apache2-doc 
 sudo a2enmod cgi
 sudo service apache2 restart
 ```
+## Rest
+Representational State Transfer (abgekürzt REST, seltener auch ReST) bezeichnet ein Programmierparadigma für verteilte Systeme.
+REST ist eine Abstraktion der Struktur und des Verhaltens des World Wide Web (HTTP GET, PUT, POST, DELETE).
+REST hat das Ziel, einen Architekturstil zu schaffen, der die Anforderungen des modernen Web besser darstellt. Dabei unterscheidet sich REST vor allem in der Forderung nach einer einheitlichen Schnittstelle von anderen Architekturstilen.
+![REST](/Bilder/rest.jpg)
 
 ## Nützliche Befehle
 ### Bash
