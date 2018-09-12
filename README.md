@@ -13,36 +13,40 @@ Ist bei Mac direkt installiert
 
 ### Command line instructions
 
+```shell
 Git global setup<br>
 git config --global user.name "V-ROLEX"<br>
 git config --global user.email "lorisw99@hotmail.com"<br>
-
+```
 ### Create a new repository
 
+```shell
+cd Schule/BIST_M300/BIST_M300<br>
 git clone https://github.com/V-ROLEX/BIST_M300.git<br>
-cd Documents/BIST_M300<br>
 touch README.md<br>
 git add README.md<br>
-git commit -m "add README"<br>
-git push -u origin master<br>
-
+git commit -m "Text bei Commit"<br>
+git push<br>
+```
 ### Existing folder
 
+```shell
 cd existing_folder<br>
 git init<br>
 git remote add origin https://github.com/V-ROLEX/BIST_M300.git<br>
 git add .<br>
 git commit -m "Initial commit"<br>
 git push -u origin master<br>
-
+```
 ### Existing Git repository
 
+```shell
 cd existing_repo<br>
 git remote rename origin old-origin<br>
 git remote add origin git@gitlab.com:robin.augstburger/M300.git<br>
 git push -u origin --all<br>
 git push -u origin --tags<br>
-
+```
 ## GitHub
 
 ## VirtualBox
@@ -55,5 +59,3 @@ VirtualBox ab Webseite
 
 Vagrant ist eine Open-Source Ruby-Anwendung zum Erstellen und Verwalten von virtuellen Maschinen, mittels sogenannten Vagrantfiles.
 Vagrant ab Webseite 
-
-Test
