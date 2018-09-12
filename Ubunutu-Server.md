@@ -5,7 +5,7 @@
 2. cd Ordnername
 3. vagrant init ubuntu/trusty64
 4. vagrant up --provider virtualbox
-5. Vagrant starten --> vagrant ssh
+5. vagrant ssh
 ```
 ## Portweiterleitung einrichten
 1. VirtualBox öffnen 
