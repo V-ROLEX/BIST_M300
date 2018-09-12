@@ -67,10 +67,8 @@ sudo apt-get insstall dos2unix
 sudo dos2unix /usr/lib/cgi-bin/rest # evtl. DOS (CR) Zeichen entfernen
 ```
 
-
-
--------
-
+---
+---
 
 
 ## Nützliche Befehle
