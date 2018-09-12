@@ -16,6 +16,17 @@
    
 ![Portweiterleitung](/Bilder/Portweiterleitung.png)
 
+### Advanced Packaging Tool (APT)
+Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian GNU/Linux entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
+```shell
+sudo apt-get update- Repositories aktualisieren
+sudo apt-get -y install apache2 - Webserver Apache installieren
+sudo apt-get -y upgrade- bestehende Software aktualisieren
+sudo apt-get -y autoremove - Aufräumen, nicht mehr benötigte Software entfernen
+sudo apt-cache search [keyword] - Suchen nach einem bestimmen Programmpaket.
+sudo dpkg -i [Programmpaket] - Installieren eines vorher downloadeten Programmpaketes
+```
+
 ## 220 MySQL & Apache
 ### Apache 
 Der Apache HTTP Server ist ein quelloffenes und freies Produkt der Apache Software Foundation und der meistbenutzte Webserver im Internet.
@@ -69,14 +80,3 @@ REST hat das Ziel, einen Architekturstil zu schaffen, der die Anforderungen des 
 ```shell curl http://<server> ``` - Aufruf einer Webseite oder eines HTTP REST Services</br>
 ```shell wget http://<server>/<datei> ```- kopieren einer Datei von einem Webserver</br>
 ```shell dos2unix <Datei> ```- Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.</br>
-
-### Advanced Packaging Tool (APT)
-Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian GNU/Linux entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
-```shell
-sudo apt-get update- Repositories aktualisieren
-sudo apt-get -y install apache2 - Webserver Apache installieren
-sudo apt-get -y upgrade- bestehende Software aktualisieren
-sudo apt-get -y autoremove - Aufräumen, nicht mehr benötigte Software entfernen
-sudo apt-cache search [keyword] - Suchen nach einem bestimmen Programmpaket.
-sudo dpkg -i [Programmpaket] - Installieren eines vorher downloadeten Programmpaketes
-```
