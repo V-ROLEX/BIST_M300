@@ -56,6 +56,23 @@ VirtualBox wird verwendet weil das Zusammenspiel mit vagrant am Besten funktio
 
 Vagrant ist eine Open-Source Ruby-Anwendung zum Erstellen und Verwalten von virtuellen Maschinen, mittels sogenannten Vagrantfiles.
 
+### Vagrant How to
+
+Um eine Virtuelle Maschine mit Vagrant zu erstellen muss man folgende Schritte ausführen.
+```shell
+mkdir Ordnername
+cd Ordnername
+vagrant init ubuntu/xenial64
+vagrant up --provider virtualbox
+```
+
+Danach kann man mit ```shell vagrant``` in die VM wechseln.
+Um zu testen kann man einige Befehle eingeben.
+```shell
+Verzeichnis anzeigen ```shellls -l /bin```
+Freier Speicherplatz ```shelldf -h```
+Memory anzeigen```shellfree -m```
+
 ## Markdown
 
 Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax.
