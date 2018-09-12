@@ -38,6 +38,7 @@ sudo service apache2 restart
 Representational State Transfer (abgekürzt REST, seltener auch ReST) bezeichnet ein Programmierparadigma für verteilte Systeme.
 REST ist eine Abstraktion der Struktur und des Verhaltens des World Wide Web (HTTP GET, PUT, POST, DELETE).
 REST hat das Ziel, einen Architekturstil zu schaffen, der die Anforderungen des modernen Web besser darstellt. Dabei unterscheidet sich REST vor allem in der Forderung nach einer einheitlichen Schnittstelle von anderen Architekturstilen.
+
 ![REST](/Bilder/rest.png)
 
 ## Nützliche Befehle
@@ -68,6 +69,7 @@ REST hat das Ziel, einen Architekturstil zu schaffen, der die Anforderungen des 
 ```shell dos2unix <Datei> ```- Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.</br>
 
 ### Advanced Packaging Tool (APT)
+Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian GNU/Linux entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
 ```shell
 sudo apt-get update- Repositories aktualisieren
 sudo apt-get -y install apache2 - Webserver Apache installieren
