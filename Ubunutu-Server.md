@@ -54,6 +54,20 @@ REST hat das Ziel, einen Architekturstil zu schaffen, der die Anforderungen des 
 
 ![REST](/Bilder/rest.png)
 
+### Common Gateway Interface (CGI)
+Das Common Gateway Interface (CGI) ist ein Standard für den Datenaustausch zwischen einem Webserver und dritter Software, die Anfragen bearbeitet. CGI ist eine schon länger bestehende Variante, Webseiten dynamisch bzw. interaktiv zu machen, deren erste Überlegungen auf das Jahr 1993 zurückgehen.
+
+#### Installation
+```shell
+sudo cp rest.txt /usr/lib/cgi-bin/rest
+sudo mkdir /var/www/html/data
+sudo chown www-data:www-data /var/www/html/data
+sudo chmod +x /usr/lib/cgi-bin/rest
+sudo apt-get insstall dos2unix
+sudo dos2unix /usr/lib/cgi-bin/rest # evtl. DOS (CR) Zeichen entfernen
+```
+
+---
 ## Nützliche Befehle
 ### Bash
 #### Administrator, Start und Stop Services und System
