@@ -30,3 +30,5 @@ git remote rename origin old-origin<br>
 git remote add origin git@gitlab.com:robin.augstburger/M300.git<br>
 git push -u origin --all<br>
 git push -u origin --tags<br>
+
+@L.Widmer
