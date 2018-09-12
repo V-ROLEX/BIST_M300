@@ -18,15 +18,12 @@
 ## Nützliche Befehle
 
 ### Administrator, Start und Stop Services und System
-
+```shell 
 ```shell sudo [-i] ``` - Superuser werden, ein Password ist nicht erforderlich. –i = permanent
-
 ```shell sudo service <servicename> start|stop ```- Starten und Stoppen eines Services z.B. apache2, mysql
-
 ```shell sudo shutdown –r now ```- Restart des Betriebssystems
-
 ```shell sudo shutdown –h now ```- Stoppen des Betriebssystems
-
+```
 ### Dateien bearbeiten und Filesystem
 ```shell ls, rm, mv, cd``` - Anzeigen, löschen, verschieben von Dateien und Wechsel Verzeichnis
 ```shell nano oder [vi](http://debiananwenderhandbuch.de/vi.html) ```- Texteditoren
