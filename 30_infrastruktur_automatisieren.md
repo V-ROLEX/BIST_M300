@@ -28,3 +28,5 @@ if ! [ -L /var/www ]; then
   ln -fs /vagrant /var/www
 fi
 ```
+
+Sofern nun beide Dateien erstellt sind kann man die Virtuelle Maschine löschen mit dem Befehl ```shell vagrant destroy ``` und eine neue starten mit dem Befehl ```shell vagrant up```
