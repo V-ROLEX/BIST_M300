@@ -1,5 +1,5 @@
-#Ubunut Server VM einrichten | L.Widmer
-## 200 Linux
+# BIST M300 | L.Widmer
+## 20 Prototyping
 ### Vagrantfile erstellen
 ```shell
 1. mkdir Ordnername
