@@ -31,3 +31,5 @@ fi
 Beide Dateien können auch unter diesem [Link](BIST_300/Files/) gefunden werden 
 
 Sofern nun beide Dateien erstellt sind kann man die Virtuelle Maschine löschen mit dem Befehl ``` vagrant destroy ``` und eine neue starten mit dem Befehl ``` vagrant up```
+
+Vagrant besitzt eine gute Dokumentation zu dem gerade besprochenen Thema [Link](https://www.vagrantup.com/intro/getting-started/index.html)
