@@ -136,3 +136,5 @@ Abmelden
 ```shell curl http://<server> ``` - Aufruf einer Webseite oder eines HTTP REST Services</br>
 ```shell wget http://<server>/<datei> ```- kopieren einer Datei von einem Webserver</br>
 ```shell dos2unix <Datei> ```- Datei vom DOS ins UNIX/Linux Format umwandeln. Wird immer dann benötigt wenn eine Datei von Windows nach Linux kopiert wird und überflüssige CR enthält.</br>
+
+Test
