@@ -28,6 +28,6 @@ if ! [ -L /var/www ]; then
   ln -fs /vagrant /var/www
 fi
 ```
-Beide Dateien können auch unter diesem [Link](../Files/) gefunden werden 
+Beide Dateien können auch unter diesem [Link](BIST_300/Files/) gefunden werden 
 
 Sofern nun beide Dateien erstellt sind kann man die Virtuelle Maschine löschen mit dem Befehl ``` vagrant destroy ``` und eine neue starten mit dem Befehl ``` vagrant up```
